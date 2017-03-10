@@ -29,6 +29,9 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/ham/proprietary/etc/tfa98xx/TFA9890_N1C3_2_1_1.patch:system/etc/tfa98xx/TFA9890_N1C3_2_1_1.patch \
     vendor/zuk/ham/proprietary/lib/hw/fingerprint.msm8974.so:system/lib/hw/fingerprint.msm8974.so \
     vendor/zuk/ham/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
+    vendor/zuk/ham/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/zuk/ham/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/zuk/ham/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/zuk/ham/proprietary/vendor/lib/libactuator_rohm_bu63163_camcorder.so:system/vendor/lib/libactuator_rohm_bu63163_camcorder.so \
     vendor/zuk/ham/proprietary/vendor/lib/libactuator_rohm_bu63163_camera.so:system/vendor/lib/libactuator_rohm_bu63163_camera.so \
     vendor/zuk/ham/proprietary/vendor/lib/libactuator_rohm_bu63163_lg_camcorder.so:system/vendor/lib/libactuator_rohm_bu63163_lg_camcorder.so \
@@ -109,7 +112,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/ham/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/zuk/ham/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/zuk/ham/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/zuk/ham/proprietary/bin/hvdcp:system/bin/hvdcp \
     vendor/zuk/ham/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/zuk/ham/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/zuk/ham/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -131,7 +133,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/ham/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/zuk/ham/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/zuk/ham/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/zuk/ham/proprietary/vendor/etc/qcril.db:system/vendor/etc/qcril.db \
     vendor/zuk/ham/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/zuk/ham/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/zuk/ham/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
